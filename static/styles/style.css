@@ -1,0 +1,13 @@
+.products-list {
+    width: 40%;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 800px;
+    }
+}
+
+.checked {
+    color: orange;
+  }

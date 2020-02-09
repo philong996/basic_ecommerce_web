@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/', methods = ['GET','POST'])
 def index():
     categories = {}
-    conn = psycopg2.connect(user = 'philong', database = 'tiki', password = 'phan1996')
+    conn = psycopg2.connect(user = '', database = 'tiki', password = '')
     cur = conn.cursor()
     query ='''
     SELECT 

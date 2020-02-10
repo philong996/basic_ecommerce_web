@@ -103,7 +103,7 @@ query = '''SELECT p.id, p.url FROM categories as p
 '''
 
 conn = psycopg2.connect(user="philong",
-                        password="phan1996",
+                        password="",
                         database="tiki")
 conn.autocommit = True
 cur = conn.cursor()
